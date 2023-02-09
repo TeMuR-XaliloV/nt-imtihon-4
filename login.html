@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/login.css"/>
+    <title>Login and SignUp</title>
+  </head>
+  <body>
+
+    <header>
+        <a href="https://instagram.com/seryoznay/" target="_blank" id="poweredby">Powered By</a>
+        <div class="container right-panel-active">
+            <div class="container__form container--signup">
+                <form class="form" id="form1">
+                    <h2 class="form__title">Sign Up</h2>
+                    <input type="text" placeholder="Username" class="input" id="sign-user">
+                    <input type="password" placeholder="Password" class="input" id="sign-pass">
+                    <button class="btn" type="submit">Sign Up</button>
+                </form>
+            </div>
+            <div class="container__form container--signin">
+                <form class="form" id="form2">
+                    <h2 class="form__title">Login</h2>
+                    <input type="text" placeholder="Username" class="input" id="login-user">
+                    <input type="password" placeholder="Password" class="input" id="login-pass">
+                    <a href="#" class="link">Forgot your password?</a>
+                    <button class="btn" type="submit">Login</button>
+                </form>
+            </div>
+            <div class="container__overlay">
+                <div class="overlay">
+                    <div class="overlay__panel overlay--left">
+                        <button class="btn" id="signIn">Login</button>
+                    </div>
+                    <div class="overlay__panel overlay--right">
+                        <button class="btn" id="signUp">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <script src="./js/login.js"></script>
+  </body>
+</html>
